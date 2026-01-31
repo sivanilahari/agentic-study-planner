@@ -1,1 +1,39 @@
-Agentic AI Study Planner using Endee Project Overview Many students find it hard to create effective study plans. They often struggle with prioritizing topics, lack of structure, and using their study time efficiently. Most traditional study planners are not dynamic and do not adapt to the complexity and connections within the syllabus content. This project introduces an Agentic AI Study Planner that creates a personalized, day-by-day study plan for students. The system uses vector-based memory and reasoning to understand syllabus topics on a deeper level and organize them intelligently. Endee serves as the vector database, storing syllabus concepts and allowing retrieval through semantic search. This helps the AI agent reason about the syllabus and develop a structured, realistic study schedule. Problem Statement Conventional study planners have some clear drawbacks: They treat all topics as equally important. They do not consider topic difficulty or learning dependencies. They lack memory, reasoning, and adaptability. Because of these issues, students often feel overwhelmed. They may spend too much time on low-priority topics while ignoring more important ones. Solution Approach The Agentic AI Study Planner tackles these challenges by blending agent-based reasoning with vector search: It understands syllabus topics based on their meaning rather than just keywords. It identifies complex and high-priority topics using semantic similarity. It adjusts the study plan according to time limits and learning goals. It produces a clear, understandable day-by-day study schedule. This method helps students focus on the right topics at the right time. System Design and Technical Approach Architecture Flow Syllabus Input The student submits the syllabus topics along with the available study period (number of days). This input kicks off the planning process. Vector Storage using Endee Each syllabus topic is transformed into vector embeddings and stored in Endee, which serves as the vector-based knowledge memory. Semantic Retrieval The system retrieves relevant topics from Endee through vector similarity search, allowing for the identification of related concepts and dependencies. Agentic Reasoning An AI agent evaluates topic complexity, priority, and available study time to determine the best order for studying. Study Plan Generation The system creates a personalized, day-by-day study plan that is logically structured, easy to follow, and focuses on effective exam preparation.
+Agentic AI Study Planner using Endee
+Project Overview
+
+Students often find it difficult to make effective study plans. This is because of poor prioritization of topics, unstructured study plans, and poor utilization of available study time. Traditional study planners are static in nature and do not account for the complexity and interdependencies of topics in the syllabus.
+This project introduces an Agentic AI Study Planner that helps students make a day-wise study plan. The study planner uses vector-based memory and reasoning to understand the syllabus topics at a semantic level and structure them in an intelligent manner.
+Endee is employed as the vector database to store the syllabus concepts and retrieve them using semantic search. This helps the AI agent reason about the syllabus and make a realistic study plan.
+
+Problem Statement
+
+The traditional study planners have the following drawbacks:
+They consider all topics of equal importance
+They do not account for topic difficulty and learning dependencies
+They lack memory, reasoning, and adaptability
+Because of these drawbacks, students feel overwhelmed or spend time on less important topics while neglecting more important topics.                     Solution Approach
+
+The Agentic AI Study Planner overcomes these issues by integrating agent-based reasoning with vector search as follows:
+It interprets syllabus topics based on their meaning, not just keywords
+It identifies difficult and important topics using semantic similarity
+It dynamically changes the study plan based on time constraints and learning objectives
+It provides a simple and understandable day-wise study plan
+The solution ensures that the student studies the right topics at the right time.
+
+System Design and Technical Approach
+Architecture Flow
+
+Syllabus Input
+The student enters the syllabus topics and the number of days available for studying. This input is the point of departure for the study planning process.
+
+Vector Storage using Endee
+The system represents each syllabus topic as a vector embedding and stores it in Endee, which is the vector-based knowledge storage.
+
+Semantic Retrieval
+The system retrieves relevant topics from Endee using vector similarity search, allowing the system to identify related concepts and dependencies.
+
+Agentic Reasoning
+An AI agent evaluates topic difficulty, importance, and the available study time to determine the best order of study.
+
+Study Plan Generation
+The system provides a personalized day-wise study plan that is logically organized, easy to understand, and effective for exam preparation.
