@@ -1,0 +1,7 @@
+
+Unit 1: Arrays, Strings, Linked Lists
+Unit 2: Stacks and Queues
+Unit 3: Trees (BST, AVL, Heaps)
+Unit 4: Graphs (BFS, DFS, Shortest Path)
+Unit 5: Sorting and Searching Algorithms
+        
